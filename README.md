@@ -1,13 +1,14 @@
 # Learn Ruby and Rails
-This page is inspired by Felipe Vogel's fantastic [Ruby resource list](https://github.com/fpsvogel/learn-ruby).  
-Felipe's list is extremely rich and contains most of the resources listed here, so I would encourage you to go straight to Felipe's page if you are looking for a well-researched and extensive Web development / Ruby / Rails / Front end resource list that will get you from 0 to 99.  
 
-This list serves primarily as a record for myself of the learning material I have been through and the resources I personally have found most valuable. I include a brief comment on each item, just the opinion of the moment, nothing absolute.  
+
+This list serves primarily as a record for myself of the learning material I have been through and the resources I personally have found most valuable. It include a brief comment on each item, just the opinion of the moment, nothing absolute.  
 It also does not include formats that do not work well for me, such as videos and podcasts.
 
+This page is inspired by Felipe Vogel's fantastic [Ruby resource list](https://github.com/fpsvogel/learn-ruby).  
+Felipe's list is extremely rich and contains most of the resources listed here, so I would encourage you to go straight to Felipe's page if you are looking for a well-researched and extensive Web development / Ruby / Rails / Front end resource list that will get you from 0 to 99.  
 It could still be of interest if you are at the beginning of your journey and Felipe's list is too daunting.
 
-Broken link or question? Feel free to open an issue.
+Broken link or question? Feel free to open an issue to let me know.
 
 ## Books
 ### Programming
@@ -24,6 +25,8 @@ Excellent general foundation knowledge on networking, transport protocols, HTTP 
 I mention it here because I purchased a copy and it is established as a classic, though I personally have not yet got much out of it. It contains a catalogue of techniques that is not easy to assimilate. I guess it is best to read it slowly, and immediately try out a technique in your codebase to see where it makes sense. Maybe better luck in the future.
 - [A Common–Sense Guide to Data Structures and Algorithms](https://www.amazon.co.uk/Common-Sense-Guide-Data-Structures-Algorithms/dp/1680507222) by Jen Wengrow  
 I was going through the Odin Ruby chapters and took a break to go through this book. I'd recommend it if you've never had computer science courses, as it's very much "algorithms for dummies". Great to get just enough algorithm culture for all these code katas (sorting, linked lists, b-trees, etc.). Covers most of the classics and stops when things get complex, so I intend to follow up with a next-level book on the topic at a later stage, yet it's totally sufficient to get rid of beginner/latecomer fear of the topic. Easy read.
+- [Layered Design for Ruby on Rails Application](https://www.packtpub.com/en-us/product/layered-design-for-ruby-on-rails-applications-9781801813785) by Valdimir Dementyev (read Feb 2025) 
+En excellent book describing the rails way, how to stay on it as long as possible, when and how to get out of it. Describes very well how to build new abstration layers in a wide variety of common use cases, always explaining why it may be beneficial. Good description of anti patterns as well.
 
 ### Process & mindset
 - [Shape Up](https://basecamp.com/shapeup) by Ryan Singer  
@@ -36,7 +39,7 @@ It is also an enjoyable and concise read.
 I ended up reading this book to get a better grasp on how to define requirements for software projects.  
 I learned a lot from the book, what User Story Mapping is, and some interesting case studies from various organizations. But in hindsight, the main technique described in the book doesn’t feel very attractive as a design process, and if I were to run a large software project, I'd be more inclined to follow Shape Up than spend days in workshops covering walls with post-its.
 - [The Lean Startup](https://www.amazon.co.uk/Lean-Startup-Innovation-Successful-Businesses/dp/0670921602) by Eric Ries  
-A mega classic for anybody interested in startups.
+A mega classic for anybody interested in startups. Very stimulating. Builds the case for short learning cycle.
 
 ## Blogs
 There are countless blogs on Ruby and Rails that one comes across when learning to code or researching a topic. I only list here a few I find excellent and to which I thought it worth subscribing to the newsletter.
@@ -73,3 +76,4 @@ If you are tempted, I would really recommend you do yourself a favor and take th
 ## Official docs
 -  [The rails guide](https://guides.rubyonrails.org/index.html)
 Should likely be the first port of call for any rails related question, yet strangely for a long time, it was the last place I would look into. 
+- [Rspec](https://rspec.info/documentation/)
